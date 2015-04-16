@@ -28,7 +28,7 @@ $config['smarty']['caching']=FALSE;
 
 //MYSQL:
 //attivare per abilitare il debug del mysql
-$config['debug']=false;
+$config['debug']=TRUE;
 
 
  

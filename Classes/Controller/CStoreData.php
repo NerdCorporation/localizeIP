@@ -14,7 +14,7 @@
 class CStoreData {
     //put your code here
     
-    public function storeAll() {
+    public function saveAll() {
         $View=  USingleton::getInstance("View");
         $FStoreData=  USingleton::getInstance("FStoreData");
         

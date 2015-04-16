@@ -14,10 +14,10 @@
 class FStoreData extends FDatabase {
     //put your code here
     public function save($data) {
-        $data=date('l jS \of F Y h:i:s A');
+        $giorno=date('l jS \of F Y h:i:s A');
         
         $query1="INSERT INTO `dati` (`datiutente`, `timestamp`)";
-        $query2="VALUES ('$data','$data')";
+        $query2="VALUES ('$data','$giorno')";
         $saveData=$query1." ".$query2;
         $this->query($saveData);
         
